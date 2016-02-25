@@ -5,7 +5,11 @@ app.config(['$routeProvider', function($routeProvider) {
         templateUrl: 'js/views/login.html',
         controller: 'loginController'
     }).
-	  when('/viewLogin', {
+        when('/signUp', {
+        templateUrl: 'js/views/signUp.html',
+        controller: 'loginController'
+    }).
+	    when('/viewLogin', {
         templateUrl: 'js/views/viewLogin.html',
         controller: 'viewController'
     }).
