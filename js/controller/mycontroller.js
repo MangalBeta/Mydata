@@ -1,5 +1,5 @@
- app.controller('loginController',['$scope','loginService','$localStorage', '$sessionStorage', '$window',
- function ($scope,loginService,$localStorage, $sessionStorage, $window) {
+ app.controller('loginController',['$scope','$location','loginService','$localStorage', '$sessionStorage', '$window',
+ function ($scope,$location,loginService,$localStorage, $sessionStorage, $window) {
 $scope.logOut=true; 
 $scope.message="helloo";
 	$scope.clickCreateUser=true;
@@ -8,10 +8,15 @@ $scope.message="helloo";
 	  loginService.validUser( $scope.email,$scope.pass);
 	 
  }
+ $scope.creteAccountPage=function(){
+ $location.path('/signUp');
+ 	
+ }
  $scope.signUpUser=function(){
- 	  $scope.clickCreateUser=true;
+ 	  //$scope.clickCreateUser=true;
           loginService.Savedata($scope.myname,$scope.mylastName,$scope.myemail, $scope.mypassword)
-    	
+    	 $window.alert("signUp Succefully  \n Plz Log in");
+             $location.path('/login');
 
  }
  
