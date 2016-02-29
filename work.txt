@@ -1,0 +1,8 @@
+http://www.sitepoint.com/javascript-animations-angularjs-applications
+
+http://www.sitepoint.com/building-twitter-app-using-angularjs/?utm_source=sitepoint&utm_medium=relatedsidebar&utm_term=javascript
+
+http://www.sitepoint.com/building-twitter-app-using-angularjs/?utm_source=sitepoint&utm_medium=relatedsidebar&utm_term=javascript
+
+http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-angularjs-and-firebase--cms-22391
+
